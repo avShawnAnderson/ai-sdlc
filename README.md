@@ -12,33 +12,39 @@ This repository helps developers:
 
 ## 📁 Repository Structure
 
-### AI Tools
+### Shared Resources
 
-- **[vscode/](vscode/)** - Examples and configuration for VS Code with GitHub Copilot
-- **[cursor/](cursor/)** - Best practices for Cursor AI editor
-- **[claude-code/](claude-code/)** - Using Claude for code development
+All shared resources that can be used across any IDE or AI tool:
 
-### AI Resources
+- **[shared/instructions/](shared/instructions/)** - Step-by-step guides for AI-assisted development
+- **[shared/skills/](shared/skills/)** - Reusable techniques and patterns
+- **[shared/prompts/](shared/prompts/)** - Curated prompts for common development tasks
+- **[shared/agents/](shared/agents/)** - Specialized AI agent configurations
+- **[shared/rules/](shared/rules/)** - Coding standards and guidelines for AI tools
 
-- **[instructions/](instructions/)** - Step-by-step guides for AI-assisted development
-- **[skills/](skills/)** - Reusable techniques and patterns
-- **[prompts/](prompts/)** - Curated prompts for common development tasks
-- **[agents/](agents/)** - Specialized AI agent configurations
-- **[rules/](rules/)** - Coding standards and guidelines for AI tools
+### Framework-Specific Resources
 
-### Framework Support
+Resources for specific development frameworks:
 
 - **[frameworks/bmad/](frameworks/bmad/)** - Business Modeling and Development framework
 - **[frameworks/specflow/](frameworks/specflow/)** - Behavior-Driven Development with SpecFlow
 - **[frameworks/openspec/](frameworks/openspec/)** - OpenAPI Specification examples
 
+### Tool-Specific Resources
+
+IDE and tool-specific configurations and examples:
+
+- **[tools/vscode/](tools/vscode/)** - Examples and configuration for VS Code with GitHub Copilot
+- **[tools/cursor/](tools/cursor/)** - Best practices for Cursor AI editor
+- **[tools/claude-code/](tools/claude-code/)** - Using Claude for code development
+
 ## 🚀 Getting Started
 
-1. **Choose Your Tools**: Start with [instructions/getting-started.md](instructions/getting-started.md)
-2. **Explore Examples**: Browse the tool-specific directories
-3. **Learn Techniques**: Check out [skills/](skills/) for specific development patterns
-4. **Use Prompts**: Copy and customize prompts from [prompts/](prompts/)
-5. **Configure Agents**: Set up specialized agents from [agents/](agents/)
+1. **Choose Your Tools**: Start with [shared/instructions/getting-started.md](shared/instructions/getting-started.md)
+2. **Explore Examples**: Browse the tool-specific directories under [tools/](tools/)
+3. **Learn Techniques**: Check out [shared/skills/](shared/skills/) for specific development patterns
+4. **Use Prompts**: Copy and customize prompts from [shared/prompts/](shared/prompts/)
+5. **Configure Agents**: Set up specialized agents from [shared/agents/](shared/agents/)
 
 ## 💡 Quick Examples
 
@@ -92,19 +98,19 @@ Generate unit tests for this function using [testing framework]:
 ## 📚 Key Resources
 
 ### For Beginners
-- [Getting Started Guide](instructions/getting-started.md)
-- [Basic Prompts](prompts/)
-- [Simple Skills](skills/)
+- [Getting Started Guide](shared/instructions/getting-started.md)
+- [Basic Prompts](shared/prompts/)
+- [Simple Skills](shared/skills/)
 
 ### For Teams
-- [Code Style Rules](rules/code-style-rules.md)
-- [Agent Configurations](agents/)
-- [Team Workflows](instructions/)
+- [Code Style Rules](shared/rules/code-style-rules.md)
+- [Agent Configurations](shared/agents/)
+- [Team Workflows](shared/instructions/)
 
 ### For Advanced Users
 - [Framework Integration](frameworks/)
-- [Custom Agents](agents/)
-- [Advanced Prompts](prompts/)
+- [Custom Agents](shared/agents/)
+- [Advanced Prompts](shared/prompts/)
 
 ## 🎓 Best Practices
 
