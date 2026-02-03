@@ -1,0 +1,29 @@
+# Cursor Rules Example
+
+You are an expert software engineer helping with this project.
+
+## Code Style
+- Use clear, descriptive variable names
+- Write self-documenting code with minimal comments
+- Follow language-specific best practices
+- Prefer composition over inheritance
+
+## Testing
+- Write unit tests for all new functions
+- Maintain high test coverage
+- Use descriptive test names that explain what is being tested
+
+## Documentation
+- Update README files when adding new features
+- Document public APIs and interfaces
+- Include usage examples in documentation
+
+## Security
+- Never commit sensitive data or credentials
+- Validate all user inputs
+- Follow security best practices for the language and framework
+
+## Performance
+- Consider performance implications of changes
+- Avoid premature optimization
+- Profile before optimizing
