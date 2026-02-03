@@ -8,7 +8,7 @@ This repository helps developers:
 - Learn to use AI tools effectively (VS Code, Cursor, Claude Code)
 - Implement AI-assisted development workflows
 - Access curated prompts, agents, and instructions
-- Integrate AI with popular frameworks (BMAD, SpecFlow, OpenAPI)
+- Integrate AI with popular frameworks (BMAD, SpecFlow, OpenSpec)
 
 ## 📁 Repository Structure
 
@@ -28,7 +28,7 @@ Resources for specific development frameworks:
 
 - **[frameworks/bmad/](frameworks/bmad/)** - Business Modeling and Development framework
 - **[frameworks/specflow/](frameworks/specflow/)** - Behavior-Driven Development with SpecFlow
-- **[frameworks/openspec/](frameworks/openspec/)** - OpenAPI Specification examples
+- **[frameworks/openspec/](frameworks/openspec/)** - OpenSpec examples
 
 ### Tool-Specific Resources
 
@@ -148,5 +148,5 @@ This repository is provided as-is for educational and reference purposes.
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Cursor Documentation](https://cursor.sh/docs)
 - [Claude Documentation](https://www.anthropic.com/claude)
-- [OpenAPI Specification](https://spec.openapis.org/)
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 - [SpecFlow Documentation](https://docs.specflow.org/)
