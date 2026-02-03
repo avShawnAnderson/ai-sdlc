@@ -21,10 +21,14 @@ All shared resources that can be used across any IDE or AI tool:
 - **[shared/prompts/](shared/prompts/)** - Curated prompts for common development tasks
 - **[shared/agents/](shared/agents/)** - Specialized AI agent configurations
 - **[shared/rules/](shared/rules/)** - Coding standards and guidelines for AI tools
-- **[shared/frameworks/](shared/frameworks/)** - Framework-specific resources
-  - **[bmad/](shared/frameworks/bmad/)** - Business Modeling and Development framework
-  - **[specflow/](shared/frameworks/specflow/)** - Behavior-Driven Development with SpecFlow
-  - **[openspec/](shared/frameworks/openspec/)** - OpenAPI Specification examples
+
+### Framework-Specific Resources
+
+Resources for specific development frameworks:
+
+- **[frameworks/bmad/](frameworks/bmad/)** - Business Modeling and Development framework
+- **[frameworks/specflow/](frameworks/specflow/)** - Behavior-Driven Development with SpecFlow
+- **[frameworks/openspec/](frameworks/openspec/)** - OpenAPI Specification examples
 
 ### Tool-Specific Resources
 
@@ -104,7 +108,7 @@ Generate unit tests for this function using [testing framework]:
 - [Team Workflows](shared/instructions/)
 
 ### For Advanced Users
-- [Framework Integration](shared/frameworks/)
+- [Framework Integration](frameworks/)
 - [Custom Agents](shared/agents/)
 - [Advanced Prompts](shared/prompts/)
 
